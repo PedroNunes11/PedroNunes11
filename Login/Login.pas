@@ -51,7 +51,7 @@ begin
       LoginPrinc.Close;
 end;
 begin
-    if ((EdtUsuario.Text <> '') and (EdtSenha.Text <> '')) then
+    if ((EdtUsuario.Text = '') and (EdtSenha.Text = '')) then
     ShowMessage('Preencha todos os campos');
 end;
 

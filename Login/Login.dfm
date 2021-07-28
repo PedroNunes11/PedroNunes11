@@ -40,7 +40,6 @@ object LoginPrinc: TLoginPrinc
     Top = 64
     Width = 203
     Height = 21
-    PasswordChar = '*'
     TabOrder = 0
   end
   object BtnCancelar: TButton
